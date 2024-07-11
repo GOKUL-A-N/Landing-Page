@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing-page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <!-- header discount lead -->
+    <nav class="fixed h-[40px] w-full flex items-center justify-center bg-black text-white font-normal">
+        <ul class="list-none flex gap-3">
+            <li>Sale upto 50% Biggest Discount Hurry! Limited Period Offer <span class="cursor-pointer underline hover:text-orange-400">Shop now</span></li>
+        </ul>
+    </nav>
+    <!-- home section -->
+     <section class="h-screen w-full backgroundImg flex items-center justify-center md:justify-start ">
+        <div class="w-[320px] md:ml-40 flex flex-col gap-2 items-center justify-center text-center">
+            <h4 class="text-red-600 font-semibold text-[28px] cursive">Fashion Sale</h4>
+            <h1 class="font-bold text-[30px] mont">Minimal Menz Style</h1>
+            <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis cumque nam adipisci. Eius, atque ipsam.</p>
+            <button class="p-2 bg-black text-white font-semibold rounded-sm">Shop now</button>
+        </div>
+     </section>
+     <!-- cards for sections (men , women and kids) -->
+      <section class="flex flex-col md:flex-row items-center w-auto justify-center gap-3 overflow-scroll p-10">
+            <div class="relative">
+                <img src="./assets/Untitled design (1).png" class="md:w-[300px] h-[300px]" alt="men's clothes">
+                <p class="absolute bottom-5 w-full text-center font-semibold text-black">Men's Fashion</p>
+            </div>
+            <div class="relative">
+                <img src="./assets/Untitled design (2).png" class="md:w-[300px] h-[300px]" alt="Women's clothes">
+                <p class="absolute bottom-5 w-full text-center font-semibold text-black">Women's Fashion</p>
+            </div>
+            <div class="relative">
+                <img src="./assets/Untitled design.png" class="md:w-[300px] h-[300px]" alt="kid's clothes">
+                <p class="absolute bottom-5 w-full text-center font-semibold text-black">Kid's Fashion</p>
+            </div>
+      </section>
+</body>
+</html>
